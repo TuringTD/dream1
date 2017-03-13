@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="0" name="controllers.ApiControllerDocTesterTest" time="2.827" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="c:\_____Soft______\java\bin"/>
+    <property name="java.vm.version" value="25.40-b25"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="e:/_My_File_____/_work/MyCode/myCode/javaworkspace/A_myproject/dream1"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="e:\_My_File_____\_work\MyCode\myCode\javaworkspace\A_myproject\dream1"/>
+    <property name="java.runtime.version" value="1.8.0_40-b26"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="c:\_____Soft______\java\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\peng\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="c:/_____Soft______/apache-maven-3.3.9/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="c:\_____Soft______\java\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;c:\Users\peng\bin;.;C:\_____Soft______\Git\local\bin;C:\_____Soft______\Git\mingw\bin;C:\_____Soft______\Git\bin;C:\_____Soft______\Git\bin;c:\_____Soft______\java\bin;c:\ProgramData\Oracle\Java\javapath;c:\Windows\system32;c:\Windows;c:\Windows\System32\Wbem;c:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files\Lenovo\Fingerprint Manager Pro\;c:\Program Files\Intel\WiFi\bin\;c:\Program Files\Common Files\Intel\WirelessCommon\;c:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;c:\_____Soft______\apache-maven-3.3.9\bin;c:\_____Soft______\PostgreSQL\bin;c:\_____Soft______\node\;c:\php7\php-7.1.0-nts-Win32-VC14-x64;c:\ProgramData\ComposerSetup\bin;C:\_____Soft______\Git\bin;c:\_____Soft______\apache-tomcat-9.0.0.M17\bin;c:\Program Files\Intel\WiFi\bin\;c:\Program Files\Common Files\Intel\WirelessCommon\;c:\Users\peng\AppData\Roaming\npm;c:\Users\peng\AppData\Roaming\Composer\vendor\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\peng"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="user.name" value="peng"/>
+    <property name="java.class.path" value="c:/_____Soft______/apache-maven-3.3.9/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="c:\_____Soft______\java"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_40"/>
+    <property name="java.ext.dirs" value="c:\_____Soft______\java\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="c:\_____Soft______\java\lib\resources.jar;c:\_____Soft______\java\lib\rt.jar;c:\_____Soft______\java\lib\sunrsasign.jar;c:\_____Soft______\java\lib\jsse.jar;c:\_____Soft______\java\lib\jce.jar;c:\_____Soft______\java\lib\charsets.jar;c:\_____Soft______\java\lib\jfr.jar;c:\_____Soft______\java\classes"/>
+    <property name="sun.stderr.encoding" value="ms936"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="c:\_____Soft______\apache-maven-3.3.9"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="ms936"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="controllers.ApiControllerDocTesterTest" name="testGetIndex" time="2.479"/>
+  <testcase classname="controllers.ApiControllerDocTesterTest" name="testGetHelloWorldJson" time="0.348"/>
+</testsuite>
