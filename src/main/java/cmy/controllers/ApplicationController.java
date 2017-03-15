@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package controllers;
+package cmy.controllers;
 
 import ninja.Result;
 import ninja.Results;
